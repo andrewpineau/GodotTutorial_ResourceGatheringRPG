@@ -1,6 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701887509
+::res://::1701889828
 icon.svg::CompressedTexture2D::4682452808084071450::1701886490::1701886496::1::::<><>::
+README.md::TextFile::-1::1701889798::0::1::::<><>::
+::res://addons/::1701887960
+::res://addons/godot-git-plugin/::1701887961
+git_plugin.gdextension::GDExtension::-1::1701887961::0::1::::<><>::
+plugin.cfg::TextFile::-1::1701887961::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1701887960::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1701887961
+::res://addons/godot-git-plugin/macos/::1701887961
+::res://addons/godot-git-plugin/win64/::1701887961
 ::res://Art/::1701886526
 GathererExteriorPack.png::CompressedTexture2D::8739209209967692392::1701886437::1701886526::1::::<><>::
 ::res://Art/Animations/::1701886526
