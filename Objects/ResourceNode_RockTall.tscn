@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dspuv42rqmag"]
+
+[ext_resource type="Script" path="res://Objects/ResourceNode.cs" id="1_hotgg"]
+[ext_resource type="Texture2D" uid="uid://ddacrbsgcqrvk" path="res://Art/Objects/Grass/Rock_Tall1.png" id="1_mpixv"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7n7lw"]
+radius = 7.0
+height = 14.0
+
+[node name="ResourceNode_RockTall" type="StaticBody2D"]
+script = ExtResource("1_hotgg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_mpixv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CapsuleShape2D_7n7lw")

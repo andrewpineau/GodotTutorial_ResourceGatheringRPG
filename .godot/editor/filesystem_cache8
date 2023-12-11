@@ -1,15 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701889828
+::res://::1702321121
+.gitignore.txt::TextFile::-1::1701978537::0::1::::<><>::
 icon.svg::CompressedTexture2D::4682452808084071450::1701886490::1701886496::1::::<><>::
 README.md::TextFile::-1::1701889798::0::1::::<><>::
-::res://addons/::1701887960
-::res://addons/godot-git-plugin/::1701887961
-git_plugin.gdextension::GDExtension::-1::1701887961::0::1::::<><>::
-plugin.cfg::TextFile::-1::1701887961::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1701887960::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1701887961
-::res://addons/godot-git-plugin/macos/::1701887961
-::res://addons/godot-git-plugin/win64/::1701887961
+snake.tscn::PackedScene::8417280030255809809::1702314420::0::1::::<><>::uid://cnjv23ft5qgm5::::res://Art/Characters/Snake Animation-Sheet.png
+::res://addons/::1701890134
 ::res://Art/::1701886526
 GathererExteriorPack.png::CompressedTexture2D::8739209209967692392::1701886437::1701886526::1::::<><>::
 ::res://Art/Animations/::1701886526
@@ -19,8 +14,8 @@ force_big.png::CompressedTexture2D::7046899985876835198::1701886437::1701886526:
 force_small.png::CompressedTexture2D::8644231890334319307::1701886437::1701886526::1::::<><>::
 harvest_animations_all.png::CompressedTexture2D::674107903024381887::1701886437::1701886526::1::::<><>::
 leaves_falling.png::CompressedTexture2D::4981197194382873143::1701886437::1701886526::1::::<><>::
-::res://Art/Characters/::1701886526
-Gatherer-Swing_Down.json::JSON::-1::1701886437::0::1::::<><>::
+::res://Art/Characters/::1702082526
+Gatherer-Swing_Down.json::JSON::-1::1702082457::0::1::::<><>::
 Gatherer-Swing_Down.png::CompressedTexture2D::8701903132180913202::1701886437::1701886526::1::::<><>::
 Gatherer-Swing_Left.json::JSON::-1::1701886437::0::1::::<><>::
 Gatherer-Swing_Left.png::CompressedTexture2D::5230706158461749767::1701886437::1701886526::1::::<><>::
@@ -36,6 +31,7 @@ Gatherer-Walk_Right.json::JSON::-1::1701886437::0::1::::<><>::
 Gatherer-Walk_Right.png::CompressedTexture2D::1347976356066270802::1701886437::1701886526::1::::<><>::
 Gatherer-Walk_Up.json::JSON::-1::1701886437::0::1::::<><>::
 Gatherer-Walk_Up.png::CompressedTexture2D::3468947257492124246::1701886437::1701886526::1::::<><>::
+Snake Animation-Sheet.png::CompressedTexture2D::5705200487032514510::1702082526::1702082526::1::::<><>::
 ::res://Art/Icons/::1701886526
 gatherers_icons.png::CompressedTexture2D::1735332564440059196::1701886437::1701886526::1::::<><>::
 ::res://Art/Objects/::1701886508
@@ -126,3 +122,12 @@ sickle_silver.png::CompressedTexture2D::2132404510509601164::1701886438::1701886
 watering_can_copper.png::CompressedTexture2D::2205873481899923022::1701886438::1701886526::1::::<><>::
 watering_can_gold.png::CompressedTexture2D::8362641269380760955::1701886438::1701886526::1::::<><>::
 watering_can_silver.png::CompressedTexture2D::8995402831328261928::1701886438::1701886526::1::::<><>::
+::res://Characters/::1702321398
+HandEquip.cs::CSharpScript::-1::1702321398::0::1::::<><>::
+Player.cs::CSharpScript::-1::1702314417::0::1::::<><>::
+Player.tscn::PackedScene::7484843019351495945::1702314420::0::1::::<><>::uid://dv8jcqv7u23oo::::res://Art/Characters/Gatherer-Swing_Down.png<>res://Characters/Player.cs<>uid://bgvutkx3hs8kh::::res://Art/Tools/axe_copper.png<>uid://dvcgg48s7y5mg::::res://Art/Characters/Gatherer-Walk_Down.png<>uid://bponb4arqw0is::::res://Art/Characters/Gatherer-Walk_Up.png<>uid://cgvukvcn6dur5::::res://Art/Characters/Gatherer-Walk_Left.png<>uid://tg78dsbwn3le::::res://Art/Characters/Gatherer-Walk_Right.png<>uid://dovs1iuoqc4fi::::res://Art/Characters/Gatherer-Swing_Up.png<>uid://cgr1737cyysb4::::res://Art/Characters/Gatherer-Swing_Left.png<>uid://dw2tumlsnl4a0::::res://Art/Characters/Gatherer-Swing_Right.png
+::res://Levels/::1702321121
+GameLevel.tscn::PackedScene::3674092343405263338::1702321121::0::1::::<><>::uid://devyjhitvbgbx::::res://Characters/Player.tscn<>uid://dspuv42rqmag::::res://Objects/ResourceNode_RockTall.tscn
+::res://Objects/::1702321381
+ResourceNode.cs::CSharpScript::-1::1702321381::0::1::::<><>::
+ResourceNode_RockTall.tscn::PackedScene::248672950296565990::1702320862::0::1::::<><>::res://Objects/ResourceNode.cs<>uid://ddacrbsgcqrvk::::res://Art/Objects/Grass/Rock_Tall1.png

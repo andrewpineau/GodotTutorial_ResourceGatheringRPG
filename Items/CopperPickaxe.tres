@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HarvestingTool" load_steps=3 format=3 uid="uid://dh0rbt4dqwkl0"]
+
+[ext_resource type="Script" path="res://Items/HarvestingTool.cs" id="1_lp2ey"]
+[ext_resource type="Texture2D" uid="uid://b6gahhry4vy8y" path="res://Art/Tools/pickaxe_copper.png" id="1_v7dlv"]
+
+[resource]
+script = ExtResource("1_lp2ey")
+MinDamage = 1
+MaxDamage = 1
+Texture = ExtResource("1_v7dlv")
+DisplayName = "Copper Pickaxe"

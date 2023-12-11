@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="EquippableItem" load_steps=3 format=3 uid="uid://cy8rdkiyafe5f"]
+
+[ext_resource type="Script" path="res://Items/EquippableItem.cs" id="1_cacou"]
+[ext_resource type="Texture2D" uid="uid://c30ni2qkprmcw" path="res://Art/Tools/hammer_copper.png" id="1_r7tgd"]
+
+[resource]
+script = ExtResource("1_cacou")
+Texture = ExtResource("1_r7tgd")
+DisplayName = "Test_Item"

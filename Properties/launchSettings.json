@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ResourceGatheringRPG": {
+      "commandName": "Project"
+    },
+    "Profile 2": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files (x86)\\Godot\\Godot_v4.1.1-stable_mono_win64.exe",
+      "commandLineArgs": "--path \"C:\\Users\\andre\\Game Projects\\ResourceGatheringPRG\""
+    }
+  }
+}
