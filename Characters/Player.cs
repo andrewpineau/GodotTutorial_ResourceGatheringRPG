@@ -1,11 +1,12 @@
 using Godot;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public partial class Player : CharacterBody2D
 {
 	[Export]
 	public float Speed = 100.0f;
-
     public AnimationTree AnimationTree { get; set; }
 	// Get the gravity from the project settings to be synced with RigidBody nodes.
 	public Vector2 Direction { get; set; } = Vector2.Zero;

@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="HarvestingTool" load_steps=3 format=3 uid="uid://dh0rbt4dqwkl0"]
+[gd_resource type="Resource" script_class="HarvestingTool" load_steps=4 format=3 uid="uid://dh0rbt4dqwkl0"]
 
+[ext_resource type="Resource" uid="uid://bf0rkupjki6om" path="res://Objects/Resources/minable.tres" id="1_kg8e3"]
 [ext_resource type="Script" path="res://Items/HarvestingTool.cs" id="1_lp2ey"]
 [ext_resource type="Texture2D" uid="uid://b6gahhry4vy8y" path="res://Art/Tools/pickaxe_copper.png" id="1_v7dlv"]
 
 [resource]
 script = ExtResource("1_lp2ey")
-MinDamage = 1
-MaxDamage = 1
+MinAmount = 1
+MaxAmount = 1
+EffectedNodeTypes = Array[Object]([ExtResource("1_kg8e3")])
 Texture = ExtResource("1_v7dlv")
 DisplayName = "Copper Pickaxe"

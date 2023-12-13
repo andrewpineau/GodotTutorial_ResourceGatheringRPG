@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="HarvestingTool" load_steps=4 format=3 uid="uid://dckwmer7i6j5y"]
+
+[ext_resource type="Resource" uid="uid://buoemdfvdnbvx" path="res://Objects/Resources/axeable.tres" id="1_o3rvd"]
+[ext_resource type="Texture2D" uid="uid://bgvutkx3hs8kh" path="res://Art/Tools/axe_copper.png" id="2_o4ex8"]
+[ext_resource type="Script" path="res://Items/HarvestingTool.cs" id="3_c35x4"]
+
+[resource]
+script = ExtResource("3_c35x4")
+MinAmount = 1
+MaxAmount = 1
+EffectedNodeTypes = Array[Object]([ExtResource("1_o3rvd")])
+Texture = ExtResource("2_o4ex8")
+DisplayName = "Copper Axe"

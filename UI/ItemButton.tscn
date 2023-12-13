@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpj3um1vpd8tu"]
+
+[ext_resource type="Texture2D" uid="uid://bgvutkx3hs8kh" path="res://Art/Tools/axe_copper.png" id="1_3c0da"]
+[ext_resource type="Script" path="res://UI/ItemButton.cs" id="2_umk01"]
+
+[node name="ItemButton" type="Button"]
+icon = ExtResource("1_3c0da")
+script = ExtResource("2_umk01")
+
+[connection signal="pressed" from="." to="." method="OnButtonPressed"]

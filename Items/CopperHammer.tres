@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="HarvestingTool" load_steps=3 format=3 uid="uid://di33umbnjqc3s"]
+
+[ext_resource type="Texture2D" uid="uid://c30ni2qkprmcw" path="res://Art/Tools/hammer_copper.png" id="1_cwgpr"]
+[ext_resource type="Script" path="res://Items/HarvestingTool.cs" id="3_0yyg3"]
+
+[resource]
+script = ExtResource("3_0yyg3")
+MinAmount = 1
+MaxAmount = 1
+EffectedNodeTypes = null
+Texture = ExtResource("1_cwgpr")
+DisplayName = "Copper Hammer"
