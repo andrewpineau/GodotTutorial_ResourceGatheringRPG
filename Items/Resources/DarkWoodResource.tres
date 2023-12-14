@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceItem" load_steps=3 format=3 uid="uid://4ewgei6xy7db"]
+
+[ext_resource type="Texture2D" uid="uid://cyfa7yjw67cov" path="res://Art/Resources/wood_grey.png" id="1_imrwe"]
+[ext_resource type="Script" path="res://Items/Resources/ResourceItem.cs" id="2_qmj37"]
+
+[resource]
+resource_name = "Dark Wood"
+script = ExtResource("2_qmj37")
+DisplayName = "Dark Wood"
+Texture = ExtResource("1_imrwe")

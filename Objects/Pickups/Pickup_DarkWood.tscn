@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhyhj4dqd8ghn"]
+
+[ext_resource type="Script" path="res://Objects/Pickups/Pickup.cs" id="1_eqyub"]
+[ext_resource type="Resource" uid="uid://4ewgei6xy7db" path="res://Items/Resources/DarkWoodResource.tres" id="2_e7lye"]
+[ext_resource type="Texture2D" uid="uid://cyfa7yjw67cov" path="res://Art/Resources/wood_grey.png" id="3_0n1a3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pqblu"]
+radius = 6.0
+
+[node name="Pickup_DarkWood" type="Area2D"]
+z_index = -5
+script = ExtResource("1_eqyub")
+ResourceType = ExtResource("2_e7lye")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_0n1a3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pqblu")

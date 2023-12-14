@@ -15,12 +15,28 @@ public partial class ResourceNode : StaticBody2D
     public float LaunchSpeed { get; set; } = 100.0f;
     [Export]
     public float LaunchTime { get; set; } = 0.25f;
+
+    [Export]
+    public PackedScene DepletedEffect { get; set; }
     private int _currentResources { get; set; }
     private Node _levelParent { get; set; }
 
     public int CurrentResources { 
         get { return _currentResources; }
-        set { if (value <= 0) { QueueFree(); } else { _currentResources = value; } } 
+        set 
+        { 
+            if (value <= 0) 
+            { 
+                QueueFree();
+                var effectInstance = DepletedEffect.Instantiate() as GpuParticles2D;
+                effectInstance.Position = Position;
+                _levelParent.AddChild(effectInstance);
+                effectInstance.Emitting = true;
+            } else 
+            { 
+                _currentResources = value; 
+            } 
+        } 
     
     }
     // Called when the node enters the scene tree for the first time.

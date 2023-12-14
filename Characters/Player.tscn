@@ -1391,7 +1391,7 @@ position = Vector2(2.61947, -2.4856)
 shape = SubResource("RectangleShape2D_ddgi5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 4)
+position = Vector2(0, 6)
 shape = SubResource("CapsuleShape2D_6ra33")
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
